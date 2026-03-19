@@ -1,9 +1,9 @@
-name: Build and Push Docker Image
+name: Build and Push Docker Image latest docker image
 
 on:
   push:
     branches:
-      - "**"
+      - "master"
 
 jobs:
   build:
