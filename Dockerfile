@@ -20,7 +20,6 @@ RUN go build -o app .
 FROM alpine:latest
 
 WORKDIR /app
-
 # Add CA certificates (important for HTTPS requests)
 RUN apk add --no-cache ca-certificates
 
